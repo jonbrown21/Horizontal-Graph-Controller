@@ -9,12 +9,10 @@
 #import <WebKit/WebKit.h>
 
 @interface GraphController : WebView
-{
-    IBOutlet id iArrayController;
-    IBOutlet NSTextField *textField;
-    IBOutlet NSTextField *textField2;
-    IBOutlet NSTextField *textField3;
-    IBOutlet NSTableView *tableView;
-}
+
+@property (assign) IBOutlet id iArrayController;
+@property (assign) IBOutlet NSTextField *textField, *textField2, *textField3;
+@property (assign) IBOutlet NSTableView *tableView;
+
 - (IBAction)refreshData:(id)sender;
 @end

@@ -6,12 +6,12 @@
 //  Copyright (c) 2013 Jon Brown Designs. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 {
     IBOutlet NSTableView *tableView;
-    IBOutlet id webView;
+    IBOutlet WebView* webView;
 }
 
 

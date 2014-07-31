@@ -10,28 +10,17 @@
 
 @implementation iArrayController
 
--(void)awakeFromNib
-{
-	//Sorting at startup
-	NSSortDescriptor* SortDescriptor = [[[NSSortDescriptor alloc] initWithKey:@"artist"
-                                                                    ascending:YES selector:@selector(compare:)] autorelease];
-	[self setSortDescriptors:[NSArray arrayWithObject:SortDescriptor]];
-    
-	//need to initialize the array
-	[super awakeFromNib];
-    
-    //bind text colums to tex fields.
-    [textField bind: @"value" toObject: self
-              withKeyPath:@"arrangedObjects.@sum.rating" options:nil];
-    
-    [textField2 bind: @"value" toObject: self
-        withKeyPath:@"arrangedObjects.@sum.time" options:nil];
-    
-    [textField3 bind: @"value" toObject: self
-        withKeyPath:@"arrangedObjects.@sum.track" options:nil];
+-(void)awakeFromNib { 	//Sorting at startup
 
+	[self setSortDescriptors:@[[NSSortDescriptor.alloc initWithKey:@"artist" ascending:YES selector:@selector(compare:)]]];
+
+	[super awakeFromNib]; 	//need to initialize the array
+
+  for (NSArray *k in @[ @[ @"rating",  textField  ],   //bind text colums to tex fields.
+                        @[ @"time",    textField2 ],
+                        @[ @"track",   textField3 ]])
+
+    [k[1] bind:@"value" toObject:self withKeyPath:[@"arrangedObjects.@sum." stringByAppendingString:k[0]] options:nil];
 }
-
-
 
 @end
