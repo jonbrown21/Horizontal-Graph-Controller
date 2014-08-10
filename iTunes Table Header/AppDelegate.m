@@ -20,17 +20,28 @@
 -(void)awakeFromNib
 {
     /* set preference defaults */
-    [NSUserDefaults.standardUserDefaults registerDefaults:@{@"NSDisabledCharacterPaletteMenuItem":@YES}];
-
-    for (NSTableColumn *col in tableView.tableColumns) //    iHeaderStyle *iHeaderCell;
-        [col setHeaderCell:[iHeaderStyle.alloc initTextCell:[col.headerCell stringValue]]];
-
-    webView.drawsBackground = webView.mainFrame.frameView.allowsScrolling = NO;
-    [webView.mainFrame loadHTMLString:[NSString stringWithContentsOfFile:
-                                    [NSBundle.mainBundle pathForResource:@"index" ofType:@"html"]
-                                                                encoding:NSUTF8StringEncoding error:nil]
-                                                                 baseURL:NSBundle.mainBundle.resourceURL];
-
+    [[NSUserDefaults standardUserDefaults] registerDefaults:
+     [NSDictionary dictionaryWithObject: [NSNumber numberWithBool: YES]
+                                 forKey: @"NSDisabledCharacterPaletteMenuItem"]];
+   
+    NSArray *columns = [tableView tableColumns];
+    NSEnumerator *cols = [columns objectEnumerator];
+    NSTableColumn *col = nil;
+    
+    iHeaderStyle *iHeaderCell;
+    
+    while (col = [cols nextObject]) {
+        iHeaderCell = [[iHeaderStyle alloc]
+                       initTextCell:[[col headerCell] stringValue]];
+        [col setHeaderCell:iHeaderCell];
+        [iHeaderCell release];
+    }
+    
+    NSString *path1 = [[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"];
+    NSString *html = [NSString stringWithContentsOfFile:path1 encoding:NSUTF8StringEncoding error:nil];
+    [[[webView mainFrame] frameView] setAllowsScrolling:NO];
+    [[webView mainFrame] loadHTMLString:html baseURL:[[NSBundle mainBundle] resourceURL]];
+    [webView setDrawsBackground:NO];
     
     
 }

@@ -10,7 +10,9 @@
 
 @interface iArrayController : NSArrayController
 {
-    IBOutlet NSTextField *textField, *textField2, *textField3;
+    IBOutlet NSTextField *textField;
+    IBOutlet NSTextField *textField2;
+    IBOutlet NSTextField *textField3;
 }
 
 
