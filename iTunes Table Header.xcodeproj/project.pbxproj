@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC8AF60B184BE705000968FF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8AF60A184BE705000968FF /* WebKit.framework */; };
 		FC8AF618184BF393000968FF /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC8AF614184BF393000968FF /* bootstrap.min.css */; };
 		FC8AF619184BF393000968FF /* bootstrap.min.js in Sources */ = {isa = PBXBuildFile; fileRef = FC8AF615184BF393000968FF /* bootstrap.min.js */; };
 		FC8AF61A184BF393000968FF /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FC8AF616184BF393000968FF /* index.html */; };
 		FC8AF61B184BF393000968FF /* jquery-1.7.1.min.js in Sources */ = {isa = PBXBuildFile; fileRef = FC8AF617184BF393000968FF /* jquery-1.7.1.min.js */; };
 		FC8AF61F184BF6E5000968FF /* GraphController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8AF61E184BF6E5000968FF /* GraphController.m */; };
+		FCEA069A1824966E004FDEE6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA06991824966E004FDEE6 /* Cocoa.framework */; };
+		FCEA06A41824966E004FDEE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEA06A21824966E004FDEE6 /* InfoPlist.strings */; };
 		FCEA06A61824966E004FDEE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA06A51824966E004FDEE6 /* main.m */; };
 		FCEA06AA1824966E004FDEE6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FCEA06A81824966E004FDEE6 /* Credits.rtf */; };
 		FCEA06AD1824966E004FDEE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA06AC1824966E004FDEE6 /* AppDelegate.m */; };
 		FCEA06B01824966E004FDEE6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCEA06AE1824966E004FDEE6 /* MainMenu.xib */; };
 		FCEA06B21824966E004FDEE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEA06B11824966E004FDEE6 /* Images.xcassets */; };
+		FCEA06B91824966E004FDEE6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA06B81824966E004FDEE6 /* XCTest.framework */; };
+		FCEA06BA1824966E004FDEE6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA06991824966E004FDEE6 /* Cocoa.framework */; };
+		FCEA06C21824966E004FDEE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEA06C01824966E004FDEE6 /* InfoPlist.strings */; };
+		FCEA06C41824966E004FDEE6 /* iTunes_Table_HeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA06C31824966E004FDEE6 /* iTunes_Table_HeaderTests.m */; };
 		FCEA06CF1824996B004FDEE6 /* iHeaderStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA06CE1824996B004FDEE6 /* iHeaderStyle.m */; };
 		FCEA06D21824A114004FDEE6 /* iTableStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA06D11824A114004FDEE6 /* iTableStyle.m */; };
 		FCEA06D51824ABF2004FDEE6 /* iArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA06D41824ABF2004FDEE6 /* iArrayController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7B8883A3198A718C0084F770 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FCEA068E1824966E004FDEE6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FCEA06951824966E004FDEE6;
-			remoteInfo = "iTunes Table Header";
-		};
 		FCEA06BB1824966E004FDEE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FCEA068E1824966E004FDEE6 /* Project object */;
@@ -41,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		FC7D9D73182B44AD003D072C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = Base.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FC8AF60A184BE705000968FF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FC8AF614184BF393000968FF /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
 		FC8AF615184BF393000968FF /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.min.js; sourceTree = "<group>"; };
 		FC8AF616184BF393000968FF /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -48,7 +49,12 @@
 		FC8AF61D184BF6E5000968FF /* GraphController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphController.h; sourceTree = "<group>"; };
 		FC8AF61E184BF6E5000968FF /* GraphController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphController.m; sourceTree = "<group>"; };
 		FCEA06961824966E004FDEE6 /* iTunes Table Header.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes Table Header.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEA06991824966E004FDEE6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FCEA069C1824966E004FDEE6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FCEA069D1824966E004FDEE6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FCEA069E1824966E004FDEE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCEA06A11824966E004FDEE6 /* iTunes Table Header-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunes Table Header-Info.plist"; sourceTree = "<group>"; };
+		FCEA06A31824966E004FDEE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCEA06A51824966E004FDEE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCEA06A71824966E004FDEE6 /* iTunes Table Header-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunes Table Header-Prefix.pch"; sourceTree = "<group>"; };
 		FCEA06A91824966E004FDEE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
@@ -57,6 +63,10 @@
 		FCEA06AF1824966E004FDEE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		FCEA06B11824966E004FDEE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FCEA06B71824966E004FDEE6 /* iTunes Table HeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iTunes Table HeaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEA06B81824966E004FDEE6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FCEA06BF1824966E004FDEE6 /* iTunes Table HeaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunes Table HeaderTests-Info.plist"; sourceTree = "<group>"; };
+		FCEA06C11824966E004FDEE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCEA06C31824966E004FDEE6 /* iTunes_Table_HeaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunes_Table_HeaderTests.m; sourceTree = "<group>"; };
 		FCEA06CD1824996B004FDEE6 /* iHeaderStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHeaderStyle.h; sourceTree = "<group>"; };
 		FCEA06CE1824996B004FDEE6 /* iHeaderStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHeaderStyle.m; sourceTree = "<group>"; };
 		FCEA06D01824A114004FDEE6 /* iTableStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTableStyle.h; sourceTree = "<group>"; };
@@ -71,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8AF60B184BE705000968FF /* WebKit.framework in Frameworks */,
+				FCEA069A1824966E004FDEE6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEA06BA1824966E004FDEE6 /* Cocoa.framework in Frameworks */,
+				FCEA06B91824966E004FDEE6 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +107,6 @@
 				FC8AF617184BF393000968FF /* jquery-1.7.1.min.js */,
 			);
 			name = Graph;
-			path = GraphFiles;
 			sourceTree = "<group>";
 		};
 		FCEA068D1824966E004FDEE6 = {
@@ -101,6 +114,8 @@
 			children = (
 				FC8AF61C184BF399000968FF /* Graph */,
 				FCEA069F1824966E004FDEE6 /* iTunes Table Header */,
+				FCEA06BD1824966E004FDEE6 /* iTunes Table HeaderTests */,
+				FCEA06981824966E004FDEE6 /* Frameworks */,
 				FCEA06971824966E004FDEE6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +127,27 @@
 				FCEA06B71824966E004FDEE6 /* iTunes Table HeaderTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FCEA06981824966E004FDEE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC8AF60A184BE705000968FF /* WebKit.framework */,
+				FCEA06991824966E004FDEE6 /* Cocoa.framework */,
+				FCEA06B81824966E004FDEE6 /* XCTest.framework */,
+				FCEA069B1824966E004FDEE6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCEA069B1824966E004FDEE6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA069C1824966E004FDEE6 /* AppKit.framework */,
+				FCEA069D1824966E004FDEE6 /* CoreData.framework */,
+				FCEA069E1824966E004FDEE6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		FCEA069F1824966E004FDEE6 /* iTunes Table Header */ = {
@@ -139,9 +175,28 @@
 			isa = PBXGroup;
 			children = (
 				FCEA06A11824966E004FDEE6 /* iTunes Table Header-Info.plist */,
+				FCEA06A21824966E004FDEE6 /* InfoPlist.strings */,
 				FCEA06A51824966E004FDEE6 /* main.m */,
 				FCEA06A71824966E004FDEE6 /* iTunes Table Header-Prefix.pch */,
 				FCEA06A81824966E004FDEE6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCEA06BD1824966E004FDEE6 /* iTunes Table HeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA06C31824966E004FDEE6 /* iTunes_Table_HeaderTests.m */,
+				FCEA06BE1824966E004FDEE6 /* Supporting Files */,
+			);
+			path = "iTunes Table HeaderTests";
+			sourceTree = "<group>";
+		};
+		FCEA06BE1824966E004FDEE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA06BF1824966E004FDEE6 /* iTunes Table HeaderTests-Info.plist */,
+				FCEA06C01824966E004FDEE6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -178,7 +233,6 @@
 			);
 			dependencies = (
 				FCEA06BC1824966E004FDEE6 /* PBXTargetDependency */,
-				7B8883A4198A718C0084F770 /* PBXTargetDependency */,
 			);
 			name = "iTunes Table HeaderTests";
 			productName = "iTunes Table HeaderTests";
@@ -231,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC8AF618184BF393000968FF /* bootstrap.min.css in Resources */,
+				FCEA06A41824966E004FDEE6 /* InfoPlist.strings in Resources */,
 				FCEA06B21824966E004FDEE6 /* Images.xcassets in Resources */,
 				FC8AF61A184BF393000968FF /* index.html in Resources */,
 				FCEA06AA1824966E004FDEE6 /* Credits.rtf in Resources */,
@@ -242,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEA06C21824966E004FDEE6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,17 +323,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCEA06C41824966E004FDEE6 /* iTunes_Table_HeaderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7B8883A4198A718C0084F770 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FCEA06951824966E004FDEE6 /* iTunes Table Header */;
-			targetProxy = 7B8883A3198A718C0084F770 /* PBXContainerItemProxy */;
-		};
 		FCEA06BC1824966E004FDEE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FCEA06951824966E004FDEE6 /* iTunes Table Header */;
@@ -286,6 +338,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		FCEA06A21824966E004FDEE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEA06A31824966E004FDEE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		FCEA06A81824966E004FDEE6 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,6 +361,14 @@
 				FCEA06AF1824966E004FDEE6 /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FCEA06C01824966E004FDEE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEA06C11824966E004FDEE6 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
