@@ -5,36 +5,45 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F9CC5D8B-C82B-4643-A03F-157B583CAB2E</string>
+	<string>3D1C57F9-044C-435A-AAAB-F86904E16837</string>
 	<key>IDESourceControlProjectName</key>
 	<string>iTunes Table Header</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>32A4B12F-B714-44A1-86C2-B87547F72D20</key>
-		<string>https://github.com/jonbrown21/iTunes-Table-Header.git</string>
+		<key>72C6E79F-BD28-4A66-807B-C743882EB968</key>
+		<string>https://github.com/jonbrown21/Horizontal-Graph-Controller/trunk</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>iTunes Table Header.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>32A4B12F-B714-44A1-86C2-B87547F72D20</key>
+		<key>72C6E79F-BD28-4A66-807B-C743882EB968</key>
 		<string>../..</string>
 	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>72C6E79F-BD28-4A66-807B-C743882EB968</key>
+		<string>https://github.com/jonbrown21/Horizontal-Graph-Controller</string>
+	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/jonbrown21/iTunes-Table-Header.git</string>
+	<string>https://github.com/jonbrown21/Horizontal-Graph-Controller/trunk/iTunes%20Table%20Header.xcodeproj</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>32A4B12F-B714-44A1-86C2-B87547F72D20</string>
+	<string>72C6E79F-BD28-4A66-807B-C743882EB968</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>32A4B12F-B714-44A1-86C2-B87547F72D20</string>
+			<string>72C6E79F-BD28-4A66-807B-C743882EB968</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iTunes-Table-Header</string>
+			<string>Horizontal-Graph-Controller</string>
 		</dict>
 	</array>
 </dict>

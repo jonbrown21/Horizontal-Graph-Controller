@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC54F39A1997304400609BB3 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC54F3961997304400609BB3 /* bootstrap.min.css */; };
+		FC54F39C1997304400609BB3 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FC54F3981997304400609BB3 /* index.html */; };
 		FC8AF60B184BE705000968FF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8AF60A184BE705000968FF /* WebKit.framework */; };
-		FC8AF618184BF393000968FF /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC8AF614184BF393000968FF /* bootstrap.min.css */; };
-		FC8AF619184BF393000968FF /* bootstrap.min.js in Sources */ = {isa = PBXBuildFile; fileRef = FC8AF615184BF393000968FF /* bootstrap.min.js */; };
-		FC8AF61A184BF393000968FF /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FC8AF616184BF393000968FF /* index.html */; };
-		FC8AF61B184BF393000968FF /* jquery-1.7.1.min.js in Sources */ = {isa = PBXBuildFile; fileRef = FC8AF617184BF393000968FF /* jquery-1.7.1.min.js */; };
 		FC8AF61F184BF6E5000968FF /* GraphController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8AF61E184BF6E5000968FF /* GraphController.m */; };
 		FCEA069A1824966E004FDEE6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA06991824966E004FDEE6 /* Cocoa.framework */; };
 		FCEA06A41824966E004FDEE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEA06A21824966E004FDEE6 /* InfoPlist.strings */; };
@@ -40,12 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC54F3961997304400609BB3 /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = bootstrap.min.css; path = GraphFiles/bootstrap.min.css; sourceTree = "<group>"; };
+		FC54F3971997304400609BB3 /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = bootstrap.min.js; path = GraphFiles/bootstrap.min.js; sourceTree = "<group>"; };
+		FC54F3981997304400609BB3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = GraphFiles/index.html; sourceTree = "<group>"; };
+		FC54F3991997304400609BB3 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.7.1.min.js"; path = "GraphFiles/jquery-1.7.1.min.js"; sourceTree = "<group>"; };
 		FC7D9D73182B44AD003D072C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = Base.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FC8AF60A184BE705000968FF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		FC8AF614184BF393000968FF /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
-		FC8AF615184BF393000968FF /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.min.js; sourceTree = "<group>"; };
-		FC8AF616184BF393000968FF /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		FC8AF617184BF393000968FF /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.7.1.min.js"; sourceTree = "<group>"; };
 		FC8AF61D184BF6E5000968FF /* GraphController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphController.h; sourceTree = "<group>"; };
 		FC8AF61E184BF6E5000968FF /* GraphController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphController.m; sourceTree = "<group>"; };
 		FCEA06961824966E004FDEE6 /* iTunes Table Header.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes Table Header.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,10 +99,10 @@
 		FC8AF61C184BF399000968FF /* Graph */ = {
 			isa = PBXGroup;
 			children = (
-				FC8AF614184BF393000968FF /* bootstrap.min.css */,
-				FC8AF615184BF393000968FF /* bootstrap.min.js */,
-				FC8AF616184BF393000968FF /* index.html */,
-				FC8AF617184BF393000968FF /* jquery-1.7.1.min.js */,
+				FC54F3961997304400609BB3 /* bootstrap.min.css */,
+				FC54F3971997304400609BB3 /* bootstrap.min.js */,
+				FC54F3981997304400609BB3 /* index.html */,
+				FC54F3991997304400609BB3 /* jquery-1.7.1.min.js */,
 			);
 			name = Graph;
 			sourceTree = "<group>";
@@ -284,10 +282,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC8AF618184BF393000968FF /* bootstrap.min.css in Resources */,
+				FC54F39A1997304400609BB3 /* bootstrap.min.css in Resources */,
 				FCEA06A41824966E004FDEE6 /* InfoPlist.strings in Resources */,
+				FC54F39C1997304400609BB3 /* index.html in Resources */,
 				FCEA06B21824966E004FDEE6 /* Images.xcassets in Resources */,
-				FC8AF61A184BF393000968FF /* index.html in Resources */,
 				FCEA06AA1824966E004FDEE6 /* Credits.rtf in Resources */,
 				FCEA06B01824966E004FDEE6 /* MainMenu.xib in Resources */,
 			);
@@ -312,9 +310,7 @@
 				FCEA06D51824ABF2004FDEE6 /* iArrayController.m in Sources */,
 				FC8AF61F184BF6E5000968FF /* GraphController.m in Sources */,
 				FCEA06A61824966E004FDEE6 /* main.m in Sources */,
-				FC8AF619184BF393000968FF /* bootstrap.min.js in Sources */,
 				FCEA06D21824A114004FDEE6 /* iTableStyle.m in Sources */,
-				FC8AF61B184BF393000968FF /* jquery-1.7.1.min.js in Sources */,
 				FCEA06CF1824996B004FDEE6 /* iHeaderStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
