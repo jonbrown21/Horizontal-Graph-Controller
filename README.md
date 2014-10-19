@@ -4,7 +4,7 @@ Horizontal-Graph-Controller
 A complete collection of subclasses and controller classes to make any WebView a custom iTunes style horizontal graph. You can style this graph with CSS all transitions and animations are done via CSS3. No images required.
 
 
-![ScreenShot](https://raw.github.com/jonbrown21/Horizontal-Graph-Controller/master/2.png)
+![ScreenShot](https://github.com/jonbrown21/Horizontal-Graph-Controller/blob/master/screenshot/2.png)
 
 GraphController
 ===================
