@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6249" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="3338"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6249"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="6249"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -11,7 +12,7 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <menu title="AMainMenu" systemMenu="main" id="29">
             <items>
                 <menuItem title="iTunes Table Header" id="56">
@@ -666,14 +667,14 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="SP5-3I-Bof">
-                        <rect key="frame" x="0.0" y="168" width="406" height="251"/>
+                        <rect key="frame" x="0.0" y="149" width="406" height="270"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <clipView key="contentView" horizontalHuggingPriority="372" horizontalCompressionResistancePriority="392" id="lyg-71-r4K">
                             <rect key="frame" x="0.0" y="17" width="406" height="234"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" headerView="MBA-UX-rYJ" id="qjh-38-NSk" customClass="iTableStyle">
-                                    <rect key="frame" x="0.0" y="0.0" width="406" height="234"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="406" height="19"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" red="0.84313725490196079" green="0.86274509803921573" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
@@ -755,11 +756,9 @@
                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </clipView>
                         <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="7eT-A6-JEc">
-                            <rect key="frame" x="0.0" y="1" width="0.0" height="16"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                         <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="LIu-wb-4JH">
-                            <rect key="frame" x="-16" y="17" width="16" height="0.0"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                         <tableHeaderView key="headerView" id="MBA-UX-rYJ">
@@ -827,9 +826,11 @@
                         </subviews>
                     </customView>
                     <webView id="Oy7-dG-TOO" customClass="GraphController">
-                        <rect key="frame" x="0.0" y="32" width="406" height="134"/>
+                        <rect key="frame" x="0.0" y="32" width="406" height="116"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
-                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12" javaEnabled="NO" javaScriptCanOpenWindowsAutomatically="NO"/>
+                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12" javaEnabled="NO" javaScriptCanOpenWindowsAutomatically="NO">
+                            <nil key="identifier"/>
+                        </webPreferences>
                         <connections>
                             <outlet property="iArrayController" destination="hma-DP-aVs" id="qVM-vq-dEm"/>
                             <outlet property="tableView" destination="qjh-38-NSk" id="Mn7-J4-Rzw"/>

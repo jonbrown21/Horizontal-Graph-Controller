@@ -10,38 +10,29 @@
 	<string>iTunes Table Header</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>72C6E79F-BD28-4A66-807B-C743882EB968</key>
-		<string>https://github.com/jonbrown21/Horizontal-Graph-Controller/trunk</string>
+		<key>68E47E6B128B9CD2837FE1B2A762888C2708B131</key>
+		<string>https://github.com/jonbrown21/Horizontal-Graph-Controller.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iTunes Table Header.xcodeproj/project.xcworkspace</string>
+	<string>iTunes Table Header.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>72C6E79F-BD28-4A66-807B-C743882EB968</key>
+		<key>68E47E6B128B9CD2837FE1B2A762888C2708B131</key>
 		<string>../..</string>
 	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>72C6E79F-BD28-4A66-807B-C743882EB968</key>
-		<string>https://github.com/jonbrown21/Horizontal-Graph-Controller</string>
-	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/jonbrown21/Horizontal-Graph-Controller/trunk/iTunes%20Table%20Header.xcodeproj</string>
+	<string>https://github.com/jonbrown21/Horizontal-Graph-Controller.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>72C6E79F-BD28-4A66-807B-C743882EB968</string>
+	<string>68E47E6B128B9CD2837FE1B2A762888C2708B131</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
-			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
-			<string>branches</string>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
-			<string>trunk</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>72C6E79F-BD28-4A66-807B-C743882EB968</string>
+			<string>68E47E6B128B9CD2837FE1B2A762888C2708B131</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Horizontal-Graph-Controller</string>
 		</dict>
