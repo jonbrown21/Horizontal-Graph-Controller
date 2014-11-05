@@ -20,7 +20,7 @@
 	//need to initialize the array
 	[super awakeFromNib];
     
-    //bind text colums to tex fields.
+    //bind text colums to text fields.
     [textField bind: @"value" toObject: self
               withKeyPath:@"arrangedObjects.@sum.rating" options:nil];
     

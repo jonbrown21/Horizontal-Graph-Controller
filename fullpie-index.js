@@ -1,5 +1,5 @@
 $(function(){
-  myFunction3(0,0,0,’’,’’,’’);
+  myFunction3(0,0,0,'','','');
 });
 
 /*!

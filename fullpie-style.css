@@ -3,16 +3,15 @@
   padding: 0;
 }
 body {
-  background-color: #e9efec;
+  background: #222428;
   font-family: "Oswald", "Helvetica Newe", Helvetica, sans-serif;
 }
 .chart {
-  position: absolute;
-  width: 450px;
-  height: 450px;
-  top: 50%;
-  left: 50%;
-  margin: -225px 0 0 -225px;
+    width: 275px;
+    height: 275px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .pieTip {
   position: absolute;

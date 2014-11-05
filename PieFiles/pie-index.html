@@ -2,30 +2,79 @@
 <html>
 
 <head>
-
+    <SCRIPT TYPE="text/javascript">
+        <!--
+        //Disable right click script
+        var message="Sorry, right-click has been disabled";
+        ///////////////////////////////////
+        function clickIE() {if (document.all) {(message);return false;}}
+        function clickNS(e) {if
+            (document.layers||(document.getElementById&&!document.all)) {
+                if (e.which==2||e.which==3) {(message);return false;}}}
+    if (document.layers)
+    {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+    else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+    document.oncontextmenu=new Function("return false")
+    // -->
+        </SCRIPT>
   <meta charset="UTF-8">
 
   <title>SVG Doughnut chart with animation and tooltip - CodePen</title>
-
-  <link rel="stylesheet" href="pie-normalize.css">
-
-    <link rel="stylesheet" href="pie-style.css" media="screen" type="text/css" />
-
+  <script type='text/javascript' src='jquery-1.7.1.min.js'></script>
+  <script type='text/javascript' src='pie-index.js'></script>
+  <link rel="stylesheet" href="pie-style.css" media="screen" type="text/css" />
+  <link rel="stylesheet" href="pie-normalize.css" media="screen" type="text/css" />
 </head>
 
 <body>
 
-<div id="demo">dd</div>
+<div id="doughnutChart" class="chart"></div>
 
-<button onclick="myFunction(50,50,50,'paris','London','NYC')">Click me</button>
 
-<button onclick="clearBox('doughnutChart')" />Reset </button>
 
-  <div id="doughnutChart" class="chart">kJ;lskdfj</div>
+<script>
+    function myFunction2(a,b,c,locationa,locationb,locationc)
+    {
+        
+        var item1 = parseInt(a);
+        var item2 = parseInt(b);
+        var item3 = parseInt(c);
+        var item4 = locationa;
+        var item5 = locationb;
+        var item6 = locationc;
+        
+        var total = item1 + item2 + item3;
+        
+        var ITEM1PERCENT = (item1 / total) * 100;
+        var ITEM2PERCENT = (item2 / total) * 100;
+        var ITEM3PERCENT = (item3 / total) * 100;
+        
+        if(isNaN(ITEM1PERCENT)) {
+            var ITEM1PERCENT = 0;
+        }
+        if(isNaN(ITEM2PERCENT)) {
+            var ITEM2PERCENT = 0;
+        }
+        if(isNaN(ITEM3PERCENT)) {
+            var ITEM3PERCENT = 0;
+        }
+        
+        clearBox('doughnutChart');
+        
+        $("#doughnutChart").drawDoughnutChart([
+                                               { title: item4, value: item1,   color: "#2C3E50" },
+                                               { title: item5, value: item2,   color: "#D7DADB" },
+                                               { title: item6, value: item3,   color: "#F7E248" }
+                                               ]);
+                                               
+                                               
+    }
 
-  <script src='jquery-1.7.1.min.js'></script>
-
-  <script src="pie-index.js"></script>
+    function clearBox(elementID)
+    {
+        document.getElementById(elementID).innerHTML = "";
+    }
+</script>
 
 </body>
 

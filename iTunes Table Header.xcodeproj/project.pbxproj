@@ -9,8 +9,19 @@
 /* Begin PBXBuildFile section */
 		FC54F39A1997304400609BB3 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC54F3961997304400609BB3 /* bootstrap.min.css */; };
 		FC54F39C1997304400609BB3 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FC54F3981997304400609BB3 /* index.html */; };
+		FC7613DA1A08D18D00C528B7 /* fullpie-index.html in Resources */ = {isa = PBXBuildFile; fileRef = FC7613D61A08D18D00C528B7 /* fullpie-index.html */; };
+		FC7613DB1A08D18D00C528B7 /* fullpie-index.js in Resources */ = {isa = PBXBuildFile; fileRef = FC7613D71A08D18D00C528B7 /* fullpie-index.js */; };
+		FC7613DC1A08D18D00C528B7 /* fullpie-style.css in Resources */ = {isa = PBXBuildFile; fileRef = FC7613D81A08D18D00C528B7 /* fullpie-style.css */; };
+		FC7613DD1A08D18D00C528B7 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC7613D91A08D18D00C528B7 /* jquery-1.7.1.min.js */; };
 		FC8AF60B184BE705000968FF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8AF60A184BE705000968FF /* WebKit.framework */; };
 		FC8AF61F184BF6E5000968FF /* GraphController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8AF61E184BF6E5000968FF /* GraphController.m */; };
+		FCA119111A076E2C00791D17 /* pie-index.html in Resources */ = {isa = PBXBuildFile; fileRef = FCA1190D1A076E2C00791D17 /* pie-index.html */; };
+		FCA119121A076E2C00791D17 /* pie-index.js in Resources */ = {isa = PBXBuildFile; fileRef = FCA1190E1A076E2C00791D17 /* pie-index.js */; };
+		FCA119131A076E2C00791D17 /* pie-normalize.css in Resources */ = {isa = PBXBuildFile; fileRef = FCA1190F1A076E2C00791D17 /* pie-normalize.css */; };
+		FCA119141A076E2C00791D17 /* pie-style.css in Resources */ = {isa = PBXBuildFile; fileRef = FCA119101A076E2C00791D17 /* pie-style.css */; };
+		FCA119161A07700E00791D17 /* bootstrap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC54F3971997304400609BB3 /* bootstrap.min.js */; };
+		FCA119171A07700E00791D17 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC54F3991997304400609BB3 /* jquery-1.7.1.min.js */; };
+		FCA119191A0771C300791D17 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FCA119181A0771C300791D17 /* jquery-1.7.1.min.js */; };
 		FCEA069A1824966E004FDEE6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEA06991824966E004FDEE6 /* Cocoa.framework */; };
 		FCEA06A41824966E004FDEE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEA06A21824966E004FDEE6 /* InfoPlist.strings */; };
 		FCEA06A61824966E004FDEE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEA06A51824966E004FDEE6 /* main.m */; };
@@ -42,10 +53,19 @@
 		FC54F3971997304400609BB3 /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = bootstrap.min.js; path = GraphFiles/bootstrap.min.js; sourceTree = "<group>"; };
 		FC54F3981997304400609BB3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = GraphFiles/index.html; sourceTree = "<group>"; };
 		FC54F3991997304400609BB3 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.7.1.min.js"; path = "GraphFiles/jquery-1.7.1.min.js"; sourceTree = "<group>"; };
+		FC7613D61A08D18D00C528B7 /* fullpie-index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "fullpie-index.html"; sourceTree = "<group>"; };
+		FC7613D71A08D18D00C528B7 /* fullpie-index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "fullpie-index.js"; sourceTree = "<group>"; };
+		FC7613D81A08D18D00C528B7 /* fullpie-style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "fullpie-style.css"; sourceTree = "<group>"; };
+		FC7613D91A08D18D00C528B7 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.7.1.min.js"; sourceTree = "<group>"; };
 		FC7D9D73182B44AD003D072C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = Base.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FC8AF60A184BE705000968FF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FC8AF61D184BF6E5000968FF /* GraphController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphController.h; sourceTree = "<group>"; };
 		FC8AF61E184BF6E5000968FF /* GraphController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphController.m; sourceTree = "<group>"; };
+		FCA1190D1A076E2C00791D17 /* pie-index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "pie-index.html"; path = "PieFiles/pie-index.html"; sourceTree = "<group>"; };
+		FCA1190E1A076E2C00791D17 /* pie-index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "pie-index.js"; path = "PieFiles/pie-index.js"; sourceTree = "<group>"; };
+		FCA1190F1A076E2C00791D17 /* pie-normalize.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = "pie-normalize.css"; path = "PieFiles/pie-normalize.css"; sourceTree = "<group>"; };
+		FCA119101A076E2C00791D17 /* pie-style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = "pie-style.css"; path = "PieFiles/pie-style.css"; sourceTree = "<group>"; };
+		FCA119181A0771C300791D17 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.7.1.min.js"; path = "PieFiles/jquery-1.7.1.min.js"; sourceTree = "<group>"; };
 		FCEA06961824966E004FDEE6 /* iTunes Table Header.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes Table Header.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEA06991824966E004FDEE6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FCEA069C1824966E004FDEE6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -96,6 +116,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC7613D31A08CCC300C528B7 /* Custom Header */ = {
+			isa = PBXGroup;
+			children = (
+				FCEA06D01824A114004FDEE6 /* iTableStyle.h */,
+				FCEA06D11824A114004FDEE6 /* iTableStyle.m */,
+				FCEA06CD1824996B004FDEE6 /* iHeaderStyle.h */,
+				FCEA06CE1824996B004FDEE6 /* iHeaderStyle.m */,
+				FCEA06D31824ABF2004FDEE6 /* iArrayController.h */,
+				FCEA06D41824ABF2004FDEE6 /* iArrayController.m */,
+			);
+			name = "Custom Header";
+			path = "iTunes Table Header";
+			sourceTree = "<group>";
+		};
+		FC7613DE1A08D19500C528B7 /* FullPie */ = {
+			isa = PBXGroup;
+			children = (
+				FC7613D61A08D18D00C528B7 /* fullpie-index.html */,
+				FC7613D71A08D18D00C528B7 /* fullpie-index.js */,
+				FC7613D81A08D18D00C528B7 /* fullpie-style.css */,
+				FC7613D91A08D18D00C528B7 /* jquery-1.7.1.min.js */,
+			);
+			name = FullPie;
+			sourceTree = "<group>";
+		};
 		FC8AF61C184BF399000968FF /* Graph */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,9 +152,24 @@
 			name = Graph;
 			sourceTree = "<group>";
 		};
+		FCA119151A076E3200791D17 /* PieGraph */ = {
+			isa = PBXGroup;
+			children = (
+				FCA119181A0771C300791D17 /* jquery-1.7.1.min.js */,
+				FCA1190D1A076E2C00791D17 /* pie-index.html */,
+				FCA1190E1A076E2C00791D17 /* pie-index.js */,
+				FCA1190F1A076E2C00791D17 /* pie-normalize.css */,
+				FCA119101A076E2C00791D17 /* pie-style.css */,
+			);
+			name = PieGraph;
+			sourceTree = "<group>";
+		};
 		FCEA068D1824966E004FDEE6 = {
 			isa = PBXGroup;
 			children = (
+				FC7613DE1A08D19500C528B7 /* FullPie */,
+				FC7613D31A08CCC300C528B7 /* Custom Header */,
+				FCA119151A076E3200791D17 /* PieGraph */,
 				FC8AF61C184BF399000968FF /* Graph */,
 				FCEA069F1824966E004FDEE6 /* iTunes Table Header */,
 				FCEA06BD1824966E004FDEE6 /* iTunes Table HeaderTests */,
@@ -157,12 +217,6 @@
 				FC8AF61D184BF6E5000968FF /* GraphController.h */,
 				FC8AF61E184BF6E5000968FF /* GraphController.m */,
 				FCEA06AE1824966E004FDEE6 /* MainMenu.xib */,
-				FCEA06D01824A114004FDEE6 /* iTableStyle.h */,
-				FCEA06D11824A114004FDEE6 /* iTableStyle.m */,
-				FCEA06CD1824996B004FDEE6 /* iHeaderStyle.h */,
-				FCEA06CE1824996B004FDEE6 /* iHeaderStyle.m */,
-				FCEA06D31824ABF2004FDEE6 /* iArrayController.h */,
-				FCEA06D41824ABF2004FDEE6 /* iArrayController.m */,
 				FCEA06B11824966E004FDEE6 /* Images.xcassets */,
 				FCEA06A01824966E004FDEE6 /* Supporting Files */,
 			);
@@ -249,7 +303,7 @@
 					FCEA06951824966E004FDEE6 = {
 						SystemCapabilities = {
 							com.apple.Sandbox = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -282,12 +336,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA119161A07700E00791D17 /* bootstrap.min.js in Resources */,
+				FCA119171A07700E00791D17 /* jquery-1.7.1.min.js in Resources */,
 				FC54F39A1997304400609BB3 /* bootstrap.min.css in Resources */,
+				FC7613DD1A08D18D00C528B7 /* jquery-1.7.1.min.js in Resources */,
+				FCA119191A0771C300791D17 /* jquery-1.7.1.min.js in Resources */,
 				FCEA06A41824966E004FDEE6 /* InfoPlist.strings in Resources */,
+				FC7613DA1A08D18D00C528B7 /* fullpie-index.html in Resources */,
+				FCA119121A076E2C00791D17 /* pie-index.js in Resources */,
+				FC7613DC1A08D18D00C528B7 /* fullpie-style.css in Resources */,
 				FC54F39C1997304400609BB3 /* index.html in Resources */,
+				FCA119141A076E2C00791D17 /* pie-style.css in Resources */,
+				FC7613DB1A08D18D00C528B7 /* fullpie-index.js in Resources */,
 				FCEA06B21824966E004FDEE6 /* Images.xcassets in Resources */,
 				FCEA06AA1824966E004FDEE6 /* Credits.rtf in Resources */,
 				FCEA06B01824966E004FDEE6 /* MainMenu.xib in Resources */,
+				FCA119131A076E2C00791D17 /* pie-normalize.css in Resources */,
+				FCA119111A076E2C00791D17 /* pie-index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +509,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_ENTITLEMENTS = "iTunes Table Header/iTunes Table Header.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -464,7 +528,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_OBJC_UNUSED_IVARS = NO;
 				CLANG_ENABLE_OBJC_ARC = NO;
-				CODE_SIGN_ENTITLEMENTS = "iTunes Table Header/iTunes Table Header.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

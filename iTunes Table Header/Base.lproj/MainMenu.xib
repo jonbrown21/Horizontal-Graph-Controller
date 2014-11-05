@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6249" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6249"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="6249"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="6250"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -650,7 +650,9 @@
         </menu>
         <customObject id="494" customClass="AppDelegate">
             <connections>
+                <outlet property="myView" destination="Acx-QT-Rau" id="zs9-eu-IkG"/>
                 <outlet property="tableView" destination="qjh-38-NSk" id="qLt-hO-hod"/>
+                <outlet property="typeField" destination="cPM-5O-0N8" id="GeM-7Q-Qfl"/>
                 <outlet property="webView" destination="Oy7-dG-TOO" id="bjs-px-Cc3"/>
                 <outlet property="window" destination="Tqn-ts-UdJ" id="mIe-CW-JZh"/>
             </connections>
@@ -659,16 +661,17 @@
         <window title="Sample GraphView" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="Tqn-ts-UdJ">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="771" y="327" width="406" height="418"/>
+            <rect key="contentRect" x="771" y="327" width="406" height="316"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
-            <value key="minSize" type="size" width="406" height="418"/>
+            <value key="minSize" type="size" width="406" height="316"/>
+            <value key="maxSize" type="size" width="406" height="470"/>
             <view key="contentView" id="73Z-or-D16">
-                <rect key="frame" x="0.0" y="0.0" width="406" height="418"/>
+                <rect key="frame" x="0.0" y="5" width="406" height="316"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="SP5-3I-Bof">
-                        <rect key="frame" x="0.0" y="149" width="406" height="270"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <rect key="frame" x="0.0" y="156" width="406" height="161"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
                         <clipView key="contentView" horizontalHuggingPriority="372" horizontalCompressionResistancePriority="392" id="lyg-71-r4K">
                             <rect key="frame" x="0.0" y="17" width="406" height="234"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -697,7 +700,7 @@
                                                 <binding destination="hma-DP-aVs" name="value" keyPath="arrangedObjects.name" id="Bzc-uc-XOB"/>
                                             </connections>
                                         </tableColumn>
-                                        <tableColumn width="62" minWidth="40" maxWidth="1000" id="8jC-ha-P6i">
+                                        <tableColumn width="92.890625" minWidth="40" maxWidth="1000" id="8jC-ha-P6i">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Value 1">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -718,7 +721,7 @@
                                                 </binding>
                                             </connections>
                                         </tableColumn>
-                                        <tableColumn width="73.77734375" minWidth="10" maxWidth="3.4028234663852886e+38" id="R1a-YJ-nBm">
+                                        <tableColumn width="93.26171875" minWidth="10" maxWidth="3.4028234663852886e+38" id="R1a-YJ-nBm">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Value 2">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -734,7 +737,7 @@
                                                 <binding destination="hma-DP-aVs" name="value" keyPath="arrangedObjects.time" id="ZPv-3S-1jr"/>
                                             </connections>
                                         </tableColumn>
-                                        <tableColumn width="146.66796875" minWidth="10" maxWidth="3.4028234663852886e+38" id="Knb-tZ-lex">
+                                        <tableColumn width="96.66796875" minWidth="10" maxWidth="3.4028234663852886e+38" id="Knb-tZ-lex">
                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Value 3">
                                                 <font key="font" metaFont="smallSystem"/>
                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
@@ -767,9 +770,9 @@
                         </tableHeaderView>
                     </scrollView>
                     <button id="d9K-LN-upW">
-                        <rect key="frame" x="9" y="5" width="23" height="25"/>
+                        <rect key="frame" x="6" y="4" width="23" height="25"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <buttonCell key="cell" type="roundTextured" title="+" bezelStyle="texturedRounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="SyA-2d-wBm">
+                        <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" image="NSAddTemplate" imagePosition="overlaps" alignment="center" alternateImage="NSAddTemplate" imageScaling="proportionallyDown" inset="2" id="SyA-2d-wBm">
                             <behavior key="behavior" lightByContents="YES"/>
                             <font key="font" metaFont="system" size="20"/>
                         </buttonCell>
@@ -778,9 +781,9 @@
                         </connections>
                     </button>
                     <button id="MVy-kO-0HI">
-                        <rect key="frame" x="40" y="5" width="23" height="25"/>
+                        <rect key="frame" x="32" y="4" width="23" height="25"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <buttonCell key="cell" type="roundTextured" title="-" bezelStyle="texturedRounded" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="0em-JI-onD">
+                        <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" image="NSRemoveTemplate" imagePosition="overlaps" alignment="center" alternateImage="NSRemoveTemplate" imageScaling="proportionallyDown" inset="2" id="0em-JI-onD">
                             <behavior key="behavior" lightByContents="YES"/>
                             <font key="font" metaFont="system" size="25"/>
                         </buttonCell>
@@ -788,61 +791,10 @@
                             <action selector="remove:" target="hma-DP-aVs" id="cEC-gs-OWf"/>
                         </connections>
                     </button>
-                    <button id="Zog-qZ-Atf">
-                        <rect key="frame" x="355" y="5" width="48" height="25"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
-                        <buttonCell key="cell" type="roundTextured" title="Save" bezelStyle="texturedRounded" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="JC3-hk-mp0">
-                            <behavior key="behavior" lightByContents="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="save:" target="Nyb-iz-KVe" id="nwG-fZ-Ked"/>
-                        </connections>
-                    </button>
-                    <customView id="yDG-vl-2ZJ">
-                        <rect key="frame" x="385" y="402" width="21" height="17"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                        <subviews>
-                            <imageView id="bTZ-Ag-CNq">
-                                <rect key="frame" x="7" y="4" width="8" height="8"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="NSAddTemplate" id="T2L-jK-sjQ"/>
-                            </imageView>
-                            <popUpButton id="RAX-le-8aS">
-                                <rect key="frame" x="-33" y="-2" width="70" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <popUpButtonCell key="cell" type="bevel" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" transparent="YES" imageScaling="proportionallyDown" inset="2" id="alh-1y-nXC">
-                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="menu"/>
-                                    <menu key="menu" title="OtherViews" id="DVG-GI-YCp">
-                                        <items>
-                                            <menuItem title="Item 1" id="ahj-NY-Ze4"/>
-                                            <menuItem title="Item 2" id="vse-HH-UfY"/>
-                                            <menuItem title="Item 3" id="eRR-Ul-UPj"/>
-                                        </items>
-                                    </menu>
-                                </popUpButtonCell>
-                            </popUpButton>
-                        </subviews>
-                    </customView>
-                    <webView id="Oy7-dG-TOO" customClass="GraphController">
-                        <rect key="frame" x="0.0" y="32" width="406" height="116"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
-                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12" javaEnabled="NO" javaScriptCanOpenWindowsAutomatically="NO">
-                            <nil key="identifier"/>
-                        </webPreferences>
-                        <connections>
-                            <outlet property="iArrayController" destination="hma-DP-aVs" id="qVM-vq-dEm"/>
-                            <outlet property="tableView" destination="qjh-38-NSk" id="Mn7-J4-Rzw"/>
-                            <outlet property="textField" destination="pC7-3O-4jh" id="bi7-6W-1TU"/>
-                            <outlet property="textField2" destination="8Z5-02-scd" id="9l7-rM-YiE"/>
-                            <outlet property="textField3" destination="WfJ-bZ-bz6" id="g8z-q9-Y64"/>
-                        </connections>
-                    </webView>
                     <button id="Jrt-kd-JIe">
-                        <rect key="frame" x="146" y="5" width="115" height="22"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="roundTextured" title="Reload Graph" bezelStyle="texturedRounded" image="NSRefreshTemplate" imagePosition="left" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="Xor-YZ-jw6">
+                        <rect key="frame" x="143" y="4" width="74" height="25"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <buttonCell key="cell" type="roundTextured" title="Reload" bezelStyle="texturedRounded" image="NSRefreshTemplate" imagePosition="left" alignment="center" state="on" imageScaling="proportionallyDown" inset="2" id="Xor-YZ-jw6">
                             <behavior key="behavior" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -850,9 +802,41 @@
                             <action selector="refreshData:" target="Oy7-dG-TOO" id="V3q-33-uNG"/>
                         </connections>
                     </button>
+                    <popUpButton id="cPM-5O-0N8">
+                        <rect key="frame" x="263" y="4" width="139" height="26"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <popUpButtonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" id="X4W-YQ-j6m">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="menu"/>
+                            <menu key="menu" id="PFh-Yl-iu8">
+                                <items>
+                                    <menuItem title="Bar Graph" id="nU9-WB-cEM">
+                                        <connections>
+                                            <action selector="changeOperation:" target="494" id="dvj-BM-Lta"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Donut Graph" tag="1" id="DGe-Q5-3dn">
+                                        <connections>
+                                            <action selector="changeOperation:" target="494" id="joh-Yk-yNo"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Pie Graph" tag="2" id="xzW-Ww-BUb">
+                                        <connections>
+                                            <action selector="changeOperation:" target="494" id="37m-Uf-EHL"/>
+                                        </connections>
+                                    </menuItem>
+                                </items>
+                            </menu>
+                        </popUpButtonCell>
+                    </popUpButton>
+                    <customView id="Acx-QT-Rau">
+                        <rect key="frame" x="0.0" y="32" width="406" height="125"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </customView>
                 </subviews>
             </view>
             <contentBorderThickness minY="32"/>
+            <point key="canvasLocation" x="119" y="240"/>
         </window>
         <arrayController id="hma-DP-aVs" userLabel="Artist Array Controller" customClass="iArrayController">
             <connections>
@@ -867,7 +851,7 @@
             </connections>
         </arrayController>
         <userDefaultsController representsSharedInstance="YES" id="Nyb-iz-KVe"/>
-        <window title="Table Totals" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="RLg-AP-w8q" customClass="NSPanel">
+        <window title="Table Totals" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="RLg-AP-w8q" customClass="NSPanel">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="350" y="433" width="157" height="177"/>
@@ -932,10 +916,34 @@
                     </textField>
                 </subviews>
             </view>
+            <point key="canvasLocation" x="369.5" y="118.5"/>
         </window>
+        <webView id="Oy7-dG-TOO" customClass="GraphController">
+            <rect key="frame" x="0.0" y="0.0" width="406" height="123"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12" javaEnabled="NO" javaScriptCanOpenWindowsAutomatically="NO">
+                <nil key="identifier"/>
+            </webPreferences>
+            <connections>
+                <outlet property="downloadDelegate" destination="-2" id="uyI-3K-mdL"/>
+                <outlet property="frameLoadDelegate" destination="-2" id="pkG-35-z7h"/>
+                <outlet property="iArrayController" destination="hma-DP-aVs" id="qVM-vq-dEm"/>
+                <outlet property="policyDelegate" destination="-2" id="5vM-lM-m5v"/>
+                <outlet property="resourceLoadDelegate" destination="-2" id="Muj-gZ-iMa"/>
+                <outlet property="tableView" destination="qjh-38-NSk" id="Mn7-J4-Rzw"/>
+                <outlet property="textField" destination="pC7-3O-4jh" id="bi7-6W-1TU"/>
+                <outlet property="textField2" destination="8Z5-02-scd" id="9l7-rM-YiE"/>
+                <outlet property="textField3" destination="WfJ-bZ-bz6" id="g8z-q9-Y64"/>
+                <outlet property="textField4" destination="VAl-Cr-WxD" id="P5I-Ig-WrJ"/>
+                <outlet property="textField5" destination="DaK-Xx-JKS" id="kAJ-Rn-lgj"/>
+                <outlet property="textField6" destination="bTz-Ur-Lzb" id="wOq-jv-Oij"/>
+            </connections>
+            <point key="canvasLocation" x="90" y="465.5"/>
+        </webView>
     </objects>
     <resources>
         <image name="NSAddTemplate" width="8" height="8"/>
         <image name="NSRefreshTemplate" width="10" height="12"/>
+        <image name="NSRemoveTemplate" width="8" height="8"/>
     </resources>
 </document>

@@ -1,16 +1,15 @@
-@import url(//fonts.googleapis.com/css?family=Oswald:400);
 body {
   background: #222428;
-  font-family: "Oswald", sans-serif;
+  
 }
 
 .chart {
-  position: absolute;
-  width: 450px;
-  height: 450px;
-  top: 50%;
-  left: 50%;
-  margin: -225px 0 0 -225px;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .doughnutTip {
@@ -29,6 +28,9 @@ body {
   letter-spacing: .06em;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
   pointer-events: none;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
 }
 .doughnutTip::after {
   position: absolute;
@@ -41,6 +43,9 @@ body {
   border-left: 5px solid transparent;
   border-top: 6px solid rgba(0, 0, 0, 0.7);
   line-height: 0;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .doughnutSummary {
@@ -51,6 +56,9 @@ body {
   text-align: center;
   text-shadow: 0 -1px 0 #111;
   cursor: default;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .doughnutSummaryTitle {
@@ -58,8 +66,11 @@ body {
   top: 50%;
   width: 100%;
   margin-top: -27%;
-  font-size: 22px;
+  font-size: 16px;
   letter-spacing: .06em;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .doughnutSummaryNumber {
@@ -67,7 +78,10 @@ body {
   top: 50%;
   width: 100%;
   margin-top: -15%;
-  font-size: 55px;
+  font-size: 45px;
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .chart path:hover {

@@ -12,10 +12,12 @@
 {
     IBOutlet NSTableView *tableView;
     IBOutlet id webView;
+    IBOutlet id typeField;
+    IBOutlet id myView;
 }
 
 
 @property (assign) IBOutlet NSWindow *window;
-
+- (IBAction)changeOperation:(id)sender;
 
 @end

@@ -14,7 +14,12 @@
     IBOutlet NSTextField *textField;
     IBOutlet NSTextField *textField2;
     IBOutlet NSTextField *textField3;
+    IBOutlet NSTextField *textField4;
+    IBOutlet NSTextField *textField5;
+    IBOutlet NSTextField *textField6;
     IBOutlet NSTableView *tableView;
 }
 - (IBAction)refreshData:(id)sender;
+
+
 @end
