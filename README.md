@@ -11,6 +11,7 @@ GraphController
 ===================
 A subclass of WebView that calculates the sum of the NSTableView and feeds that as int variables into the WebView where CSS3 take the data and dynamically draw the graph.
 
+![ScreenShot](https://raw.githubusercontent.com/jonbrown21/Horizontal-Graph-Controller/master/screenshot/graph.png)
 
 Sample Application - iTunes Graph Style
 ===================
