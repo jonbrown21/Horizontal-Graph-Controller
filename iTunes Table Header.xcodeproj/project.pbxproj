@@ -9,10 +9,9 @@
 /* Begin PBXBuildFile section */
 		FC54F39A1997304400609BB3 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = FC54F3961997304400609BB3 /* bootstrap.min.css */; };
 		FC54F39C1997304400609BB3 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = FC54F3981997304400609BB3 /* index.html */; };
-		FC7613DA1A08D18D00C528B7 /* fullpie-index.html in Resources */ = {isa = PBXBuildFile; fileRef = FC7613D61A08D18D00C528B7 /* fullpie-index.html */; };
-		FC7613DB1A08D18D00C528B7 /* fullpie-index.js in Resources */ = {isa = PBXBuildFile; fileRef = FC7613D71A08D18D00C528B7 /* fullpie-index.js */; };
-		FC7613DC1A08D18D00C528B7 /* fullpie-style.css in Resources */ = {isa = PBXBuildFile; fileRef = FC7613D81A08D18D00C528B7 /* fullpie-style.css */; };
-		FC7613DD1A08D18D00C528B7 /* jquery-1.7.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FC7613D91A08D18D00C528B7 /* jquery-1.7.1.min.js */; };
+		FC575EC41A09B33B003D03DC /* fullpie-index.html in Resources */ = {isa = PBXBuildFile; fileRef = FC575EC11A09B33B003D03DC /* fullpie-index.html */; };
+		FC575EC51A09B33B003D03DC /* fullpie-index.js in Resources */ = {isa = PBXBuildFile; fileRef = FC575EC21A09B33B003D03DC /* fullpie-index.js */; };
+		FC575EC61A09B33B003D03DC /* fullpie-style.css in Resources */ = {isa = PBXBuildFile; fileRef = FC575EC31A09B33B003D03DC /* fullpie-style.css */; };
 		FC8AF60B184BE705000968FF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8AF60A184BE705000968FF /* WebKit.framework */; };
 		FC8AF61F184BF6E5000968FF /* GraphController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8AF61E184BF6E5000968FF /* GraphController.m */; };
 		FCA119111A076E2C00791D17 /* pie-index.html in Resources */ = {isa = PBXBuildFile; fileRef = FCA1190D1A076E2C00791D17 /* pie-index.html */; };
@@ -53,10 +52,9 @@
 		FC54F3971997304400609BB3 /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = bootstrap.min.js; path = GraphFiles/bootstrap.min.js; sourceTree = "<group>"; };
 		FC54F3981997304400609BB3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = GraphFiles/index.html; sourceTree = "<group>"; };
 		FC54F3991997304400609BB3 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "jquery-1.7.1.min.js"; path = "GraphFiles/jquery-1.7.1.min.js"; sourceTree = "<group>"; };
-		FC7613D61A08D18D00C528B7 /* fullpie-index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "fullpie-index.html"; sourceTree = "<group>"; };
-		FC7613D71A08D18D00C528B7 /* fullpie-index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "fullpie-index.js"; sourceTree = "<group>"; };
-		FC7613D81A08D18D00C528B7 /* fullpie-style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "fullpie-style.css"; sourceTree = "<group>"; };
-		FC7613D91A08D18D00C528B7 /* jquery-1.7.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.7.1.min.js"; sourceTree = "<group>"; };
+		FC575EC11A09B33B003D03DC /* fullpie-index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "fullpie-index.html"; path = "PieFiles/fullpie-index.html"; sourceTree = "<group>"; };
+		FC575EC21A09B33B003D03DC /* fullpie-index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = "fullpie-index.js"; path = "PieFiles/fullpie-index.js"; sourceTree = "<group>"; };
+		FC575EC31A09B33B003D03DC /* fullpie-style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = "fullpie-style.css"; path = "PieFiles/fullpie-style.css"; sourceTree = "<group>"; };
 		FC7D9D73182B44AD003D072C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = Base; path = Base.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FC8AF60A184BE705000968FF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FC8AF61D184BF6E5000968FF /* GraphController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphController.h; sourceTree = "<group>"; };
@@ -133,10 +131,9 @@
 		FC7613DE1A08D19500C528B7 /* FullPie */ = {
 			isa = PBXGroup;
 			children = (
-				FC7613D61A08D18D00C528B7 /* fullpie-index.html */,
-				FC7613D71A08D18D00C528B7 /* fullpie-index.js */,
-				FC7613D81A08D18D00C528B7 /* fullpie-style.css */,
-				FC7613D91A08D18D00C528B7 /* jquery-1.7.1.min.js */,
+				FC575EC11A09B33B003D03DC /* fullpie-index.html */,
+				FC575EC21A09B33B003D03DC /* fullpie-index.js */,
+				FC575EC31A09B33B003D03DC /* fullpie-style.css */,
 			);
 			name = FullPie;
 			sourceTree = "<group>";
@@ -337,22 +334,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCA119161A07700E00791D17 /* bootstrap.min.js in Resources */,
+				FC575EC51A09B33B003D03DC /* fullpie-index.js in Resources */,
 				FCA119171A07700E00791D17 /* jquery-1.7.1.min.js in Resources */,
 				FC54F39A1997304400609BB3 /* bootstrap.min.css in Resources */,
-				FC7613DD1A08D18D00C528B7 /* jquery-1.7.1.min.js in Resources */,
+				FC575EC41A09B33B003D03DC /* fullpie-index.html in Resources */,
 				FCA119191A0771C300791D17 /* jquery-1.7.1.min.js in Resources */,
 				FCEA06A41824966E004FDEE6 /* InfoPlist.strings in Resources */,
-				FC7613DA1A08D18D00C528B7 /* fullpie-index.html in Resources */,
 				FCA119121A076E2C00791D17 /* pie-index.js in Resources */,
-				FC7613DC1A08D18D00C528B7 /* fullpie-style.css in Resources */,
 				FC54F39C1997304400609BB3 /* index.html in Resources */,
 				FCA119141A076E2C00791D17 /* pie-style.css in Resources */,
-				FC7613DB1A08D18D00C528B7 /* fullpie-index.js in Resources */,
 				FCEA06B21824966E004FDEE6 /* Images.xcassets in Resources */,
 				FCEA06AA1824966E004FDEE6 /* Credits.rtf in Resources */,
 				FCEA06B01824966E004FDEE6 /* MainMenu.xib in Resources */,
 				FCA119131A076E2C00791D17 /* pie-normalize.css in Resources */,
 				FCA119111A076E2C00791D17 /* pie-index.html in Resources */,
+				FC575EC61A09B33B003D03DC /* fullpie-style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
